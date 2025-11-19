@@ -1,3 +1,6 @@
+import java.util.Random;
+import java.util.Scanner;
+
 public class MemoryGame {
 
     private int number;
@@ -6,7 +9,20 @@ public class MemoryGame {
 
         number = RandomNum;
 
+    }
+
+    public void userCommand (){
+
+        Scanner scan = new Scanner(System.in);
+
+    }
+
+
+
+    public void printNUm() {
 
 
     }
+
+
 }
