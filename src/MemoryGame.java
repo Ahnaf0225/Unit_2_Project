@@ -48,7 +48,7 @@ public class MemoryGame {
     public void askUser() {
        Scanner scan = new Scanner(System.in);
         
-        System.out.println("Enter the 5 numbers you remember (with spaces):");
+        System.out.println("Enter the 5 numbers you remember (with spaces plz):");
         
         int guess1 = scan.nextInt();
        int guess2 = scan.nextInt();
@@ -59,7 +59,7 @@ public class MemoryGame {
         if (guess1 == number1 && guess2 == number2 && guess3 == number3 &&
                guess4 == number4 && guess5 == number5) {
 
-            System.out.println("Correct! You remembered all 5 numbers!");
+            System.out.println("Wow! You guessed everything correctly!");
         } 
         
         else {
